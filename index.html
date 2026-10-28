@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dhaniel Flores | Front-end &amp; WordPress Developer</title>
+<meta name="description" content="Self-taught front-end and WordPress developer building fast, user-friendly websites.">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="assets/img/favicon.ico" sizes="any">
+<link rel="icon" href="assets/img/favicon-32.png" type="image/png" sizes="32x32">
+<link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+<meta name="theme-color" content="#2f5bea">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<script>try{var t=localStorage.getItem('theme');if(t)document.documentElement.dataset.theme=t}catch(e){}</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="nav" id="nav">
+  <a href="#home" class="logo">Dhaniel<span>.</span></a>
+  <nav id="menu" aria-label="Main">
+    <a href="#home">Home</a><a href="#about">About</a><a href="#skills">Skills</a><a href="#portfolio">Work</a><a href="#contact">Contact</a>
+  </nav>
+  <div class="tools">
+    <button id="theme" aria-label="Toggle dark mode">◐</button>
+    <button id="burger" aria-label="Open menu" aria-expanded="false" aria-controls="menu">☰</button>
+  </div>
+</header>
+
+<main id="main">
+<section id="home" class="hero">
+  <div class="hero-text">
+    <p class="status"><i></i> Available for freelance work</p>
+    <h1>I build websites people actually enjoy using.</h1>
+    <p class="lead">Hi, I’m Dhaniel, a self-taught front-end and WordPress developer. I turn designs and ideas into fast, responsive sites.</p>
+    <div class="cta">
+      <a class="btn" href="#contact">Send me a message</a>
+      <a class="btn ghost" href="#portfolio">See my work</a>
+    </div>
+    <ul class="social">
+      <li><a href="https://github.com/DhanielFlores" target="_blank" rel="noopener">GitHub</a></li>
+      <li><a href="https://www.linkedin.com/in/dhaniel-flores-75973a198/" target="_blank" rel="noopener">LinkedIn</a></li>
+      <li><a href="https://www.frontendmentor.io/profile/DhanielFlores" target="_blank" rel="noopener">Frontend Mentor</a></li>
+    </ul>
+  </div>
+  <figure class="hero-art">
+    <div class="frame"><div class="bar"><i></i><i></i><i></i><span>dhaniel.dev</span></div>
+      <img src="assets/img/Edison-%20Dhaniel%20%281%29-min.jpg" alt="Portrait of Dhaniel Flores" width="480" height="520">
+    </div>
+    <div class="stat"><b id="count" data-to="7">0</b><span>live sites<br>shipped</span></div>
+  </figure>
+</section>
+
+<section id="about" class="section split">
+  <h2>About me</h2>
+  <div>
+    <p>I’m a self-taught web developer. Every project teaches me something new, and I use that to write cleaner code and build sites that are easy to use.</p>
+    <p>I work mostly in WordPress for client sites and in plain HTML, CSS and JavaScript for my own projects. Progress, big or small, is what I aim for every day.</p>
+    <a class="btn" href="assets/pdf/Resume.pdf" download>Download resume (PDF)</a>
+  </div>
+</section>
+
+<section id="skills" class="section">
+  <h2>Skills</h2>
+  <ul class="chips">
+    <li>HTML5</li><li>CSS3</li><li>JavaScript</li><li>WordPress</li><li>Responsive design</li><li>Elementor</li><li>Git &amp; GitHub</li><li>SEO basics</li>
+  </ul>
+</section>
+
+<section id="portfolio" class="section">
+  <h2>Work</h2>
+  <div class="filters" role="group" aria-label="Filter projects">
+    <button class="on" data-f="all">All</button>
+    <button data-f="repair">Appliance repair</button>
+    <button data-f="blog">Blogs</button>
+    <button data-f="code">Code projects</button>
+  </div>
+  <div class="grid" id="grid">
+    <article class="card" data-c="repair"><a class="shot" href="https://wolf-appliance-repair-pros.com" target="_blank" rel="noopener"><img loading="lazy" src="assets/img/shotsnapp-1654615102.114.jpeg" alt="Wolf Appliance Repair Pros website"></a><div><h3>Wolf Appliance Repair Pros</h3><p>WordPress · Service business</p></div></article>
+    <article class="card" data-c="repair"><a class="shot" href="https://kenmore-appliance-repair.com" target="_blank" rel="noopener"><img loading="lazy" src="assets/img/shotsnapp-1654615644.145.jpeg" alt="Kenmore Appliance Repair website"></a><div><h3>Kenmore Appliance Repair</h3><p>WordPress · Service business</p></div></article>
+    <article class="card" data-c="repair"><a class="shot" href="https://thermador-appliance-repair-experts.com" target="_blank" rel="noopener"><img loading="lazy" src="assets/img/shotsnapp-1654615145.708.jpeg" alt="Thermador Appliance Repair Experts website"></a><div><h3>Thermador Appliance Repair Experts</h3><p>WordPress · Service business</p></div></article>
+    <article class="card" data-c="repair"><a class="shot" href="https://losangeles-heatingairconditioning.com/" target="_blank" rel="noopener"><img loading="lazy" src="assets/img/shotsnapp-1657607243.457.jpeg" alt="HVAC repair website"></a><div><h3>Heating &amp; Air Conditioning Service</h3><p>WordPress · HVAC repair</p></div></article>
+    <article class="card" data-c="blog"><a class="shot" href="https://memorywalkmanh.com" target="_blank" rel="noopener"><img loading="lazy" src="assets/img/shotsnapp-1654615330.446.jpeg" alt="Memorywalkmanh blog"></a><div><h3>Memorywalkmanh</h3><p>WordPress · Blog</p></div></article>
+    <article class="card" data-c="blog"><a class="shot" href="https://preflightskincare.com" target="_blank" rel="noopener"><img loading="lazy" src="assets/img/shotsnapp-1654615406.598.jpeg" alt="Preflight Skincare blog"></a><div><h3>Preflight Skincare</h3><p>WordPress · Blog</p></div></article>
+    <article class="card" data-c="blog"><a class="shot" href="https://vitalsleepreview.com" target="_blank" rel="noopener"><img loading="lazy" src="assets/img/shotsnapp-1654615368.818.jpeg" alt="Vital Sleep Review blog"></a><div><h3>Vital Sleep Review</h3><p>WordPress · Blog</p></div></article>
+    <article class="card" data-c="code"><a class="shot" href="https://dhanielflores.github.io/Foods-ni-Dhan/" target="_blank" rel="noopener"><img loading="lazy" src="assets/img/shotsnapp-1627554815.568-min.jpeg" alt="Restaurant menu website"></a><div><h3>Restaurant Menu Website</h3><p>HTML · CSS · JS. Smooth animations and clear visuals.</p><p class="links"><a href="https://dhanielflores.github.io/Foods-ni-Dhan/" target="_blank" rel="noopener">Live demo</a><a href="https://github.com/DhanielFlores/Foods-ni-Dhan" target="_blank" rel="noopener">Source</a></p></div></article>
+    <article class="card" data-c="code"><a class="shot" href="https://dhanielflores.github.io/Grid-Sections/" target="_blank" rel="noopener"><img loading="lazy" src="assets/img/shotsnapp-1627555047.825-min.jpeg" alt="Grid sections challenge"></a><div><h3>Grid Sections</h3><p>My solution to a Frontend Mentor challenge.</p><p class="links"><a href="https://dhanielflores.github.io/Grid-Sections/" target="_blank" rel="noopener">Live demo</a><a href="https://github.com/DhanielFlores/Grid-Sections" target="_blank" rel="noopener">Source</a></p></div></article>
+    <article class="card" data-c="code"><a class="shot" href="https://dhanielflores.github.io/Portfolio-no.1/" target="_blank" rel="noopener"><img loading="lazy" src="assets/img/shotsnapp-1627555725.034-min.jpeg" alt="Portfolio version 1"></a><div><h3>Portfolio V1</h3><p>My first portfolio, kept for comparison.</p><p class="links"><a href="https://dhanielflores.github.io/Portfolio-no.1/" target="_blank" rel="noopener">Live demo</a><a href="https://github.com/DhanielFlores/Portfolio-no.1" target="_blank" rel="noopener">Source</a></p></div></article>
+  </div>
+</section>
+
+<section id="contact" class="section split">
+  <div>
+    <h2>Let’s work together</h2>
+    <p>Have a site to build or fix? Tell me about it.</p>
+    <p><a class="mail" href="mailto:dhanielflores@gmail.com">dhanielflores@gmail.com</a></p>
+  </div>
+  <form id="form" novalidate>
+    <label>Full name<input name="name" required autocomplete="name"></label>
+    <label>Email address<input name="email" type="email" required autocomplete="email"></label>
+    <label>Message<textarea name="message" rows="5" required></textarea></label>
+    <p class="msg" id="msg" role="status"></p>
+    <button class="btn" type="submit">Send message</button>
+  </form>
+</section>
+</main>
+
+<footer>
+  <p>© <span id="year"></span> Dhaniel Flores. All rights reserved.</p>
+  <a href="#home">Back to top ↑</a>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
